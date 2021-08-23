@@ -1,0 +1,9 @@
+/vendor/
+/composer.phar
+/build/
+!/build/.gitkeep
+/.phive/
+/tools/
+/phpcs.xml
+/phpstan.neon
+/phpunit.xml

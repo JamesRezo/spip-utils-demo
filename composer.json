@@ -1,0 +1,30 @@
+{
+    "name": "spip/utils",
+    "description": "Utilitaires pour SPIP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Spip\\Utils\\": "src/"
+        },
+        "files": [
+            "src/utils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "JamesRezo",
+            "email": "james@rezo.net"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "spip/coding-standards": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spip\\Utils\\Test\\": "tests/"
+        }
+    }
+}

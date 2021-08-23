@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset>
+    <file>./src</file>
+
+    <rule ref="SPIP40" />
+
+    <arg name="cache" value="build/.php_cs.cache"/>
+    <arg name="report-checkstyle" value="build/php_cs.xml"/>
+    <arg name="report-full" value="build/php_cs.txt"/>
+    <arg name="report-summary"/>
+    <arg value="s"/>
+</ruleset>
